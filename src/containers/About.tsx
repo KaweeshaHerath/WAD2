@@ -24,7 +24,7 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vatsal Singh, an artist as well as crazy full stack
+            Hi, my name is Kaweesha Herath, an student as well as crazy beginner of full stack
             web developer who wants to explore every tech stack.
           </p>
           <p>
@@ -40,8 +40,8 @@ const About = () => {
             .
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
+            My main focus these days is learning mobile development and learning web development for 
+            a stablished in company.
           </p>
 
           {list && (

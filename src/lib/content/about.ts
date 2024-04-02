@@ -15,5 +15,5 @@ export const aboutSection: AboutSectionType = {
         'CSS Animations',
     ],
     },
-    img: '/vatsal-singh.jpg',
+    img: '/kawee.png',
 };
