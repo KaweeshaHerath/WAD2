@@ -3,7 +3,7 @@ import { getId } from '@/lib/utils/helper';
 
 
 export const projectsSection: ProjectsSectionType = {
-    title: 'my projects',
+    title: 'My Projects',
     projects: [
     {
         id: getId(),

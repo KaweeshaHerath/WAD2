@@ -15,14 +15,14 @@ export const socialLinks: StringKeyValueType = {
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Kaweesha Herath',
+  email: 'ar102224@fhss.sjp.ac.lk',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Kaweesahe Herath | Front-End Developer',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Kaweesha Herath is a front-end developer who are currently undergraduating student in University Of Jayewardeenepura about Information & Communication Technology.',
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',

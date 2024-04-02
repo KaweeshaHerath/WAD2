@@ -2,11 +2,11 @@ import { SkillsSectionType } from '@/lib/types/sections'
 import { getId } from '@/lib/utils/helper'
 
 export const skillsSection: SkillsSectionType = {
-    title: 'what i do',
+    title: 'What I Do',
     skills: [
     {
         id: getId(),
-        title: 'full stack development',
+        title: 'full stack development - Beginner',
         // animation lottie file: https://lottiefiles.com/
         lottie: {
         light: '/lotties/frontend.json',
@@ -40,7 +40,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
         id: getId(),
-        title: 'UI/UX designing',
+        title: 'UI/UX designing - Beginner ',
         lottie: {
         light: '/lotties/designing.json',
         dark: '/lotties/designing-dark.json',
