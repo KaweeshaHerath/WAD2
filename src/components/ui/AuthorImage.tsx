@@ -8,8 +8,8 @@ const AuthorImage = ({ src, alt }: Props) => {
       <Image
         src={src}
         alt={alt}
-        width={300}
-        height={300}
+        width={200}
+        height={200}
         className="rounded shadow-xl"
       />
       <div className="absolute inset-0 border-[3px] z-[-1] rounded border-accent translate-x-6 translate-y-6 group-hover:translate-x-4 group-hover:translate-y-4 duration-150 hidden sm:block"></div>
