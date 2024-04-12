@@ -57,3 +57,11 @@
 .h3 {
   @apply text-xl sm:text-2xl tracking-wide capitalize font-medium text-dark-2;
 }
+
+/* social-links.css */
+
+.center-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
