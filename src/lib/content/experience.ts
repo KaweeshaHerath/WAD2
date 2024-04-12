@@ -1,3 +1,5 @@
+import {createElement} from 'react';
+
 import { ExperienceSectionType } from '@/lib/types/sections'
 
 export const experienceSection: ExperienceSectionType = {
@@ -43,3 +45,7 @@ export const experienceSection: ExperienceSectionType = {
     },
     ],
 };
+
+export default experienceSection;
+
+
