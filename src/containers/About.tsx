@@ -30,13 +30,13 @@ const About = () => {
           <p>
             Fast-forward to today, and I’ve had the privilege of working at a
             start-up -{' '}
-            <Link
+            {/* <Link
               href="https://www.pixelwand.live/"
               target="_blank"
               className="text-accent"
             >
               Pixelwand
-            </Link>
+            </Link> */}
             .
           </p>
           <p>
