@@ -9,20 +9,20 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
       name: 'Cine App',
       description: 'A Movie Reccomendation app.',
       tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.integraleads.xyz/',
+        'Developed a user-friendly and interactive mobile application that recommends movies to users based on their preferences and ratings.',
+      url: 'https://drive.google.com/file/d/1SJbV7uheI36G_LOMxMc8DFYqdAL6XzgW/view?usp=drive_link', // Access to the documentation 
       img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-      tags: ['NextJs', 'TypeScript', ' CSS', 'Express'],
+      tags: ['NextJs', 'TypeScript', ' CSS', 'React' ,'HTML'],
     },
     {
       id: getId(),
       name: 'Calculator ',
-      description: 'The AI-powered platform that simplifies proposal creation.',
+      description: 'Crafting Calculative Wonders: A Journey with NetBeans and Java. ',
       tasks:
-        'Implemented NextAuth authentication, integrated Mailchimp for newsletter subscription, developed a custom hook for dark mode, created UI components in the Dashboard, and used Notion as a CMS for the blogs page.',
-      url: 'https://www.uproposalgpt.com/',
-      img: 'https://user-images.githubusercontent.com/68834718/279469731-be163482-20cd-4cb3-8bcb-bbb2c1a345b8.png',
-      tags: ['Open AI', 'NextJs', 'jJavascript', 'CSS' , 'HTML' ],
+        'In the vast expanse of the digital realm, your quest beckons: fashion a beacon of computational prowess using the venerable NetBeans software, your trusty companion on this odyssey through code.',
+      url: 'https://drive.google.com/drive/folders/15p0w6-8OWmRqEqJ7BD0-_k7QixiJ9ATY?usp=drive_link',
+      img: '/02.png',
+      tags: ['Open AI', 'OOP', 'Java', 'CSS' , 'HTML' ],
     },
   ],
 };
