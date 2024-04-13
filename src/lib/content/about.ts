@@ -15,5 +15,6 @@ export const aboutSection: AboutSectionType = {
         'flutter',
     ],
     },
+    
     img: '/my pic.jpg',
 };

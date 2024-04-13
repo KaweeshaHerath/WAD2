@@ -18,7 +18,7 @@ export const skillsSection: SkillsSectionType = {
         'Building RESTful APIs in Express , POSTMAN',
         ],
         softwareSkills: [
-          // iconify icons: https://icon-sets.iconify.design/ --> Getting From Iconify
+          // iconify icons: https://icon-sets.iconify.design/ --> Getting Images From Iconify
         { name: 'html-5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },

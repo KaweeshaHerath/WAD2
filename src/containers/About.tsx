@@ -24,25 +24,16 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Kaweesha Herath, an student as well as crazy beginner of full stack
-            web developer who wants to explore every tech stack.
+          -- Greetings! I am Kaweesha Herath, an aspiring scholar immersed in the realms of full stack web development.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at a
-            start-up -{' '}
-            {/* <Link
-              href="https://www.pixelwand.live/"
-              target="_blank"
-              className="text-accent"
-            >
-              Pixelwand
-            </Link> */}
+          Proficient in networking paradigms encompassing TCP/IP, DNS, and HTTP protocols, adept at navigating intricate network architectures.-{' '}
             .
           </p>
           <p>
-            My main focus these days is learning mobile development and learning web development for 
-            a stablished in company.
+          -- My fervor lies in the exploration of diverse technological frameworks, encompassing both the aesthetic and functional facets of web design and development.
           </p>
+          <p>Additionally, I harbor a keen inclination towards data science methodologies, proficiently employing Python, Pandas, and scikit-learn for comprehensive data analysis and informed decision-making.</p>
 
           {list && (
             <>

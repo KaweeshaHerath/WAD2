@@ -20,8 +20,11 @@ export interface NavbarSectionType {
 export interface HeroSectionType extends Section {
   subtitle?: string;
   tagline: string;
+  taglineFontSize?: "sm" | "md" | "lg" ; //Fontsize for tagline
   description?: string;
-  specialText?: string;
+  descriptionFontSize?: "sm" | "md" | "lg"; // Fontsize for description
+  specialText?: string; 
+  fontSize?: "sm" | "md" | "lg" ;
   cta?: CTAType & {
     hideInDesktop?: boolean;
   };
