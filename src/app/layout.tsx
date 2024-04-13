@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     },
   ],
   description: seoData.description,
-  keywords: seoData.keywords.join(','),
-  metadataBase: new URL(seoData.url),
+  //keywords: seoData.keywords.join(','),
+  //metadataBase: new URL(seoData.url),
   alternates: {
-    canonical: seoData.url,
+    //canonical: seoData.url,
   },
   openGraph: {
     type: 'website',
-    url: seoData.url,
+    //url: seoData.url,
     title: seoData.title,
     description: seoData.description,
     images: seoData.image,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: seoData.title,
     description: seoData.description,
     images: seoData.image,
-    site: seoData.url,
+    //site: seoData.url,
   },
   icons: [
     {
