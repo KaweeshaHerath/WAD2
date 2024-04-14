@@ -9,10 +9,12 @@ import Link from 'next/link';
 
 interface Props extends FeaturedProjectType, MotionProps {
   align?: 'left' | 'right';
+  video: string; // Add the video prperty here
 }
 
 const FeaturedProject = ({
   img,
+  video, // Add the video prperty here
   name,
   url,
   repo,
@@ -22,6 +24,17 @@ const FeaturedProject = ({
   align = 'left',
   ...rest
 }: Props) => {
+  const handleClick = (event: React.MouseEvent<HTMLVideoElement>) => {
+    event.stopPropagation(); // Prevent the click event from propagating to the parent elements
+    event.preventDefault(); // Prevent the default behavior of the click event
+
+     if (event.target === event.currentTarget) {
+      window.open(video, '_blank');
+    } else {
+      window.open(url, '_blank');
+    }
+
+  }
   return (
     <motion.div
       className={cn(
@@ -38,19 +51,21 @@ const FeaturedProject = ({
         )}
       >
         <Image
-          src={img}
-          alt={name}
-          width={720}
-          height={480}
-          className="h-full w-full object-cover duration-200 group-hover:scale-105 transition-transform"
-          placeholder="blur"
-          blurDataURL={blurImageURL}
+          src="/05.png"
+          alt= "Image Alt Text"
+          width={650}
+          height={200}
+          className="object-cover object-center"
         />
+        
         <Link
           href={`${url}`}
           target="_blank"
           className="absolute inset-0 z-50 block bg-transparent"
         />
+        <a href='https://drive.google.com/file/d/1dVjvZE0FmXF0jsbfSf_ZI2d-piOQJvWb/view?usp=drive_link' className="absolute inset-0 z-50 block bg-transparent">
+          <img src ="05.png" alt="Image Alt Text" />
+        </a>
       </div>
       <div
         className={cn(
