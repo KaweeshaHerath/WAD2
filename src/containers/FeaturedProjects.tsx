@@ -22,12 +22,11 @@ const FeaturedProjects = () => {
 
       <div className="space-y-10 md:space-y-16 lg:space-y-36">
         {featuredProjectsSection.projects.map((project, i) => (
-          <FeaturedProject
-            key={project.id}
+          <FeaturedProject   //Adding missing part here ,
+            video={''} key={project.id}
             align={i % 2 === 0 ? 'right' : 'left'}
             {...project}
-            {...getSectionAnimation}
-          />
+            {...getSectionAnimation}          />
         ))}
       </div>
     </Wrapper>

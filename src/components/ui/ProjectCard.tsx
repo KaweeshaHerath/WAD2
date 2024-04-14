@@ -11,7 +11,7 @@ const ProjectCard = ({
   name,
   url,
   repo,
-  year,
+  year, // elements 
   img,
   tags,
   ...rest

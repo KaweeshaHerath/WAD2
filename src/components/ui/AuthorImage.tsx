@@ -7,7 +7,7 @@ const AuthorImage = ({ src, alt }: Props) => {
     <div className="relative w-64 h-64 group sm:w-auto sm:h-auto">
       <Image
         src={src}
-        alt={alt}
+        alt={alt} //image description 
         width={200}
         height={200}
         className="rounded shadow-xl"
