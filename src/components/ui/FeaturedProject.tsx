@@ -1,5 +1,4 @@
 import { FeaturedProjectType } from '@/lib/types';
-import { blurImageURL } from '@/lib/utils/config';
 import { cn } from '@/lib/utils/helper';
 
 import { Icon } from '@iconify/react';
@@ -13,7 +12,6 @@ interface Props extends FeaturedProjectType, MotionProps {
 }
 
 const FeaturedProject = ({
-  img,
   video, // Add the video prperty here
   name,
   url,
@@ -24,7 +22,7 @@ const FeaturedProject = ({
   align = 'left',
   ...rest
 }: Props) => {
-  const handleClick = (event: React.MouseEvent<HTMLVideoElement>) => {
+  /*const handleClick = (event: React.MouseEvent<HTMLVideoElement>) => {
     event.stopPropagation(); // Prevent the click event from propagating to the parent elements
     event.preventDefault(); // Prevent the default behavior of the click event
 
@@ -34,7 +32,7 @@ const FeaturedProject = ({
       window.open(url, '_blank');
     }
 
-  }
+  }*/
   return (
     <motion.div
       className={cn(
