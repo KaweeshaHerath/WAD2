@@ -1,9 +1,7 @@
-'use client';
-
 import featuredProjectsSection from '@/lib/content/featured-projects';
 import { Wrapper } from '@/components';
 import FeaturedProject from '@/components/ui/FeaturedProject';
-import { getSectionAnimation } from '@/styles/animations';
+import { getSectionAnimation } from '@/styles/animations'; // Import the function correctly
 
 const FeaturedProjects = () => {
   return (
@@ -20,11 +18,11 @@ const FeaturedProjects = () => {
       <div className="space-y-10 md:space-y-16 lg:space-y-36">
         {featuredProjectsSection.projects.map((project, i) => (
           <FeaturedProject
-            video={project.video || ''} // Ensuring video prop is handled; adjust as per your data structure
+            video={project.video || ''}
             key={project.id}
             align={i % 2 === 0 ? 'right' : 'left'}
             {...project}
-            {...getSectionAnimation()} // Ensure animations are executed as a function if it's designed to return props
+            {...getSectionAnimation()} // Call the function to get animation properties
           />
         ))}
       </div>
