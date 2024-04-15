@@ -8,11 +8,9 @@ import Link from 'next/link';
 
 interface Props extends FeaturedProjectType, MotionProps {
   align?: 'left' | 'right';
-  //video: string; // Add the video prperty here
 }
 
 const FeaturedProject = ({
-  video, // Add the video prperty here
   name,
   url,
   repo,
