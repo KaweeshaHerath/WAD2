@@ -1,20 +1,17 @@
 'use client';
 
 import featuredProjectsSection from '@/lib/content/featured-projects';
-
 import { Wrapper } from '@/components';
 import FeaturedProject from '@/components/ui/FeaturedProject';
-
 import { getSectionAnimation } from '@/styles/animations';
 
 const FeaturedProjects = () => {
   return (
-    <Wrapper id="projects" {...getSectionAnimation}>
+    <Wrapper id="projects" {...getSectionAnimation()}>
       <div className="mb-20 space-y-3 text-center lg:text-left">
         <h2 className="heading-secondary !mb-0 capitalize">
           {featuredProjectsSection.title}
         </h2>
-
         <p className="font-mono lg:hidden text-accent capitalize text-xs lg:mb-2.5">
           featured projects
         </p>
@@ -22,11 +19,13 @@ const FeaturedProjects = () => {
 
       <div className="space-y-10 md:space-y-16 lg:space-y-36">
         {featuredProjectsSection.projects.map((project, i) => (
-          <FeaturedProject   //Adding missing part here ,
-            video={''} key={project.id}
+          <FeaturedProject
+            video={project.video || ''} // Ensuring video prop is handled; adjust as per your data structure
+            key={project.id}
             align={i % 2 === 0 ? 'right' : 'left'}
             {...project}
-            {...getSectionAnimation}          />
+            {...getSectionAnimation()} // Ensure animations are executed as a function if it's designed to return props
+          />
         ))}
       </div>
     </Wrapper>
@@ -34,3 +33,4 @@ const FeaturedProjects = () => {
 };
 
 export default FeaturedProjects;
+
